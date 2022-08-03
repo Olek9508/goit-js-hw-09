@@ -43,5 +43,3 @@ function createPromise(position, delay) {
     }, delay);
   });
 }
-
-// ----------------

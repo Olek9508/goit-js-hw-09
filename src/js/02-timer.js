@@ -32,6 +32,10 @@ const options = {
 };
 
 refs.buttonStartEl.addEventListener('click', () => {
+  refs.inputEl.setAttribute('disabled', 'disabled');
+
+  refs.buttonStartEl.setAttribute('disabled', 'disabled');
+
   if (timerId > 0) {
     return;
   }
